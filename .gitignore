@@ -1,0 +1,41 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (keep raw dataset but ignore large temporary files)
+*.csv
+!data/heart_disease.csv
+!data/heart_disease_processed.csv
+!data/heart_disease_selected_features.csv
+!data/heart_disease_processed-PCA.csv
+
+# Model files (only keep final_model.pkl)
+models/*.pkl
+!models/final_model.pkl
+
+# Logs and results
+*.log
+results/*.txt
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor configs
+.vscode/
+.idea/
+
+# Streamlit / Deployment cache
+.streamlit/
+deployment/ngrok_setup.txt
