@@ -1,0 +1,25 @@
+📊 Summary of Model Performance Across Datasets:
+
+Dataset: heart_disease_processed - PCA.csv
+                     Accuracy  Precision    Recall  F1-score
+Logistic Regression  0.639344   0.585175  0.639344  0.607808
+Decision Tree        0.360656   0.412100  0.360656  0.382350
+Random Forest        0.540984   0.453415  0.540984  0.492801
+SVM                  0.557377   0.463700  0.557377  0.501712
+==================================================
+
+Dataset: heart_disease_processed.csv
+                     Accuracy  Precision    Recall  F1-score
+Logistic Regression  0.639344   0.585175  0.639344  0.607808
+Decision Tree        0.360656   0.412100  0.360656  0.382350
+Random Forest        0.540984   0.453415  0.540984  0.492801
+SVM                  0.557377   0.463700  0.557377  0.501712
+==================================================
+
+Dataset: heart_disease_selected_features.csv
+                     Accuracy  Precision    Recall  F1-score
+Logistic Regression  0.590164   0.565749  0.590164  0.576714
+Decision Tree        0.475410   0.450117  0.475410  0.462392
+Random Forest        0.491803   0.475163  0.491803  0.481913
+SVM                  0.590164   0.552095  0.590164  0.569464
+==================================================
